@@ -1,0 +1,169 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+          width: 100%;
+          height: 100%;
+}
+nav{
+          width: 100vmax;
+          height: 5vmax;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+}
+.nav-left{
+          width: 3vmax;
+          height: 4vmax;
+          background: linear-gradient(to bottom right,
+          rgb(82,163,194),
+          rgb(116,143,223),
+          rgb(216,64,178)
+          );
+          margin-left: 2vmax;
+}
+.nav-right ul,li{
+          display: flex;
+          list-style: none;
+          margin-right: 3vmax;
+          font-size: 1.5vmax;
+          
+}
+.matter{
+          
+          margin: 10vmax;
+          font-size: 2vmax;
+
+}
+.matter h3{
+          font-size: 3vmax;
+}
+.matter p{
+          font-size: 1.5vmax;
+          margin-top: 1vmax;
+          line-height: 1.8vmax;
+
+}
+.matter button{
+          font-size: 1.5vmax; 
+          padding: 0.5vmax;
+          margin-top: 2.8vmax;
+          background-color: black;
+          color: white;
+          border-radius: 1vmax;
+
+}
+.bottom{
+          display: flex;
+          justify-content: space-around;
+          margin-top: -4vmax;
+}
+.bottom h4{
+          font-size: 1.2vmax;
+}
+.bottom a{
+          font-size: 1.8vmax;
+}
+.image{
+          width: 25vmax;
+          height: 16vmax;
+          background: linear-gradient(to bottom right,
+          rgb(82,163,194),
+          rgb(116,143,223),
+          rgb(216,64,178)
+          );
+          border-radius: 3vmax;
+          margin-top: -26vmax;
+          margin-left: 60vmax;
+}
+.image1{
+          width: 18vmax;
+          height: 30vmax;
+          margin-top: -14vmax;
+          margin-left: 3.5vmax;
+}
+@media (max-width:600px) {
+          nav{
+                    width: 100vw;
+                    height: 5vmax;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+          }
+          .nav-left{
+                    width: 6vmax;
+                    height: 4vmax;
+                    background: linear-gradient(to bottom right,
+                    rgb(82,163,194),
+                    rgb(116,143,223),
+                    rgb(216,64,178)
+                    );
+                    margin-left: 1vmax;
+          }
+          .nav-right ul,li{
+                    display: flex;
+                    list-style: none;
+                    font-size: 1vmax;
+                    margin-right: 3vmax;
+          } 
+          .matter{
+          
+                    margin: 3vmax;
+                    font-size: 2vmax;
+          
+          }
+          .matter h3{
+                    font-size: 4vmax;
+          }
+          .matter p{
+                    font-size: 2vmax;
+                    margin-top: 1vmax;
+                    line-height: 1.8vmax;
+          
+          }
+          .matter button{
+                    font-size: 2vmax; 
+                    padding: 2vmax;
+                    margin-top: 2.8vmax;
+                    background-color: black;
+                    color: white;
+                    border-radius: 1vmax;
+          
+          }  
+          .image{
+                    width: 25vmax;
+                    height: 16vmax;
+                    background: linear-gradient(to bottom right,
+                    rgb(82,163,194),
+                    rgb(116,143,223),
+                    rgb(216,64,178)
+                    );
+                    border-radius: 3vmax;
+                    margin-left: 10vmax;
+                    margin-top: -25vmax;
+          }
+          .image1{
+                    width: 18vmax;
+                    height: 30vmax;
+                    margin-top: -14vmax;
+                    margin-left: 3.5vmax;
+          }
+          .bottom{
+        
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: 35vmax;
+          }
+          .bottom h4{
+                    font-size: 1vmax;
+          }
+          .bottom a{
+                    font-size: 1.5vmax;
+          }
+
+          
+          
+}
